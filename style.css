@@ -1,0 +1,60 @@
+body {
+    font-family:'Garamond';
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aside {
+    height: 500 px;
+    width: 25%;
+    background-color: lavender;
+}
+
+.article {
+    height: 300 px;
+    width: 25%;
+    background-color: lavender;
+    padding-top: 320px;
+}
+
+.header {
+    height: 150 px;
+    width: 75%;
+    background-color: indigo;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+.main {
+    padding-top: 20px;
+    height: 650 px;
+    width: 75%;
+    background-color: lavender;
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: indigo;
+    color: white;
+    text-align: end;
+    width: 100%;
+}
+
+img {
+    padding: 5 px;
+    margin: 10 px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1 {
+    padding-top: 30px;
+}
